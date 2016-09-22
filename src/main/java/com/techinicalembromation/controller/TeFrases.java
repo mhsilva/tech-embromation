@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.RestController;
 import com.techinicalembromation.util.TeFraseBuilder;
 
 @RestController
-@RequestMapping(value = "/frases")
+@RequestMapping(value = "/")
 public class TeFrases {
 
 	@Autowired
